@@ -1,0 +1,58 @@
+#heading{
+	display: flex;
+	margin:auto;
+	justify-content: center;
+	border:solid 3px green;
+	border-radius: 10px;
+	width: 35rem;
+	color: white;
+	background-color:rgba(153, 153, 255,0.8);
+	background-image:linear-gradient(rgba(153, 153, 255),red);
+	box-shadow: 0 0 0.5rem green;
+}
+
+
+#gridbox{
+  display: grid;
+  height: 500px;
+  width: 500px;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  grid-gap: 1px;
+  margin: auto;
+  margin-top: 10px;
+  background: black;
+  border: 5px solid rgb(99, 0, 12);
+  box-shadow: 0 0 0.5rem red;
+}
+.elements{
+   justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: Arial;
+  font-size: 3rem;
+  font-weight: bold;
+  background: white;
+}
+#pants{
+	display: flex;
+	margin:auto;
+	justify-content: center;
+	border-radius: 10px;
+	width: 30rem;
+	color: white;	
+}
+.buttons{
+	margin-top: 10px;
+	border: .05em solid green;
+  	border-radius: .5rem;
+  	transition: all .07s ease;
+  	width: 10rem;
+  	margin-left: 20px;
+  	margin-right: 20px;
+  	text-align: center;
+  	color: white;
+  	background-image:linear-gradient(rgba(153, 153, 255),red);
+  	box-shadow: 0 0 0.5rem red;
+
+}
